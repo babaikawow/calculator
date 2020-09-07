@@ -20,8 +20,7 @@ app.use(
     },
   })
 );
-Logger.error("lol");
-Logger.error(new Error("lol"));
+
 app.use("/static", express.static(path.join(__dirname, '../client/build/static/')));
 app.use("/", routes);
 app.use(require("./src/middlewares/error-handler.js"));
