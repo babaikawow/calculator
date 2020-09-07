@@ -1,6 +1,6 @@
 ### Calculator ###
 
-Calculator application provide UI with basic mathematical operations.
+Calculator application provide UI and API with basic mathematical operations.
 All calculations have restriction to 5 numbers after the comma.
 
 How to start
